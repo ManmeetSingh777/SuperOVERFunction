@@ -38,7 +38,7 @@ strikebutton.onclick = () => {
         }
         if(ballsfaced==6||team1wickets==2){
             turn=2
-            ballsfaced=1
+            ballsfaced=0
          }
      }
     
