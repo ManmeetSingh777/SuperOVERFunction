@@ -23,7 +23,7 @@ const po=[0,1,2,3,4,5,6,"W"]
 strikebutton.onclick = () => {
     ballsfaced++;
      if(turn===1){
-         var score = po[Math.floor(Math.random()* po.length)]
+         let score = po[Math.floor(Math.random()* po.length)]
          console.log(score)
         if (score=== "W"){
             team1wickets++
