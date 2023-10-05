@@ -5,8 +5,8 @@ const $team2score=document.getElementById("score-team2")
 const $team2wickets=document.getElementById("wickets-team2")
 const resetbutton=document.getElementById("reset")
 const strikebutton=document.getElementById("strike")
-const strike= new Audio(https://i1.faceprep.in/prograd-junior/bat%2Bhit%2Bball.mp3)
-const crowd_cheers= new Audio(https://i1.faceprep.in/prograd-junior/Ball%2BHit%2BCheer.mp3)
+const strike= new Audio("https://i1.faceprep.in/prograd-junior/bat%2Bhit%2Bball.mp3")
+const crowd_cheers= new Audio("https://i1.faceprep.in/prograd-junior/Ball%2BHit%2BCheer.mp3")
 
 var team1score = 0
 var team2score = 0
